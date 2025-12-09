@@ -1,0 +1,22 @@
+Package: ucsStyle
+Title: UCS ggplot Theme Using Gotham and Brand Palette (Light/Dark)
+Version: 0.1.4
+Authors@R: person(given = "David", family = "Reichmuth", email = "dreichmuth@ucsusa.org", role = c("aut", "cre"))
+Maintainer: David Reichmuth <dreichmuth@ucsusa.org>
+Description: Provides a UCS-style ggplot2 theme using the Gotham font, plus
+    helpers to register Gotham from Windows per-user AppData fonts and brand
+    colour palettes with convenient ggplot2 scales. Includes a dark-background
+    theme variant and a saver that defaults to 1500x900 px with PNG/JPG/SVG/PDF support.
+License: MIT + file LICENSE
+Depends: R (>= 3.5)
+Imports:
+    ggplot2,
+    showtext,
+    sysfonts,
+    grDevices,
+    ragg,
+    svglite
+Suggests:
+    tools
+Encoding: UTF-8
+LazyData: true
